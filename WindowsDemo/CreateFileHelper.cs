@@ -9,20 +9,31 @@ namespace WindowsDemo
 {
     public class CreateFileHelper
     {
+        /// <summary>
+        /// 创建文件目录和文件
+        /// </summary>
+        /// <param name="tables">所有表</param>
+        /// <param name="fileDir">文件目录</param>
         public static void Create(List<TableName> tables, string fileDir)
         {
             CreateDirectory(fileDir);
             foreach (TableName table in tables)
             {
+                //实体类名称
                 string entityName = GenVarName(table.Name);
+                //实体类文件名
                 string filePath = fileDir + entityName + ".cs";
+                //文件是否存在
                 bool exists = File.Exists(filePath);
 
+                //创建文件
                 FileStream fs = new FileStream(filePath, exists ? FileMode.Open : FileMode.Create, FileAccess.Write);
                 StreamWriter sw = new StreamWriter(fs);
 
+                //生成代码
                 string code = CreateFileHelper.BuilderCode(table.Name);
 
+                //写入代码到文件
                 sw.WriteLine(code);
 
                 sw.Close();
@@ -30,6 +41,10 @@ namespace WindowsDemo
             }
         }
 
+        /// <summary>
+        /// 创建文件目录
+        /// </summary>
+        /// <param name="targetDir"></param>
         private static void CreateDirectory(string targetDir)
         {
             DirectoryInfo dir = new DirectoryInfo(targetDir);
@@ -37,6 +52,11 @@ namespace WindowsDemo
                 dir.Create();
         }
 
+        /// <summary>
+        /// 根据表名，生成代码
+        /// </summary>
+        /// <param name="tableName">表名</param>
+        /// <returns></returns>
         public static string BuilderCode(string tableName)
         {
             string entityName = GenVarName(tableName);
@@ -84,6 +104,12 @@ namespace WindowsDemo
             return sb.ToString();
         }
 
+        /// <summary>
+        /// 将数据库中变量名改为驼峰命名
+        /// 如 user_name 改为 UserName
+        /// </summary>
+        /// <param name="name">变量名</param>
+        /// <returns></returns>
         public static string GenVarName(string name)
         {
             string first = name.Substring(0, 1);

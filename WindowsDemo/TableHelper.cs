@@ -150,6 +150,7 @@ namespace WindowsDemo
             sb.Append(" WHERE c.name = '").Append(TableName).Append("' ");
             sb.Append(" ORDER BY c.name, a.colorder");
 
+            //使用Easy4net框架查询数据
             List<TableColumn> list = db.FindBySql<TableColumn>(sb.ToString());
             return list;
         }
