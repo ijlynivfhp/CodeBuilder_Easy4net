@@ -58,6 +58,3 @@ C:\Users\wangwei\Downloads\wangwei123-CodeBuilder_Easy4net-master\CodeBuilder_Ea
 C:\Users\wangwei\Downloads\wangwei123-CodeBuilder_Easy4net-master\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Entity.pdb
 C:\Users\wangwei\Downloads\wangwei123-CodeBuilder_Easy4net-master\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.exe
 C:\Users\wangwei\Downloads\wangwei123-CodeBuilder_Easy4net-master\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.pdb
-F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\bin\Debug\EntityCodeBuilder.exe.config
-F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.exe
-F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.pdb

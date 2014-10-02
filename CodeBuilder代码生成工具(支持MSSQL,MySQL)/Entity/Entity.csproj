@@ -44,6 +44,12 @@
     <Compile Include="TableColumn.cs" />
     <Compile Include="TableName.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Easy4net\Easy4net.csproj">
+      <Project>{C54A1140-3F51-450A-A813-B556679934A8}</Project>
+      <Name>Easy4net</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
