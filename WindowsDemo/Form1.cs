@@ -6,9 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Easy4net;
-using Easy4net.DBUtility;
-using Easy4net.Common;
 using EntityCodeBuilder.Entity;
 using Kevin.SyntaxTextBox;
 
@@ -22,7 +19,6 @@ namespace WindowsDemo
             InitializeComponent();
         }
 
-        private DBHelper DB = new DBHelper();
         private List<TableName> m_tables = new List<TableName>();
         private List<TableName> m_SelTables = new List<TableName>();
         private List<TableColumn> m_tableColumns = new List<TableColumn>();

@@ -33,11 +33,9 @@ D:\workspace\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.ex
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.pdb
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\EntityCodeBuilder.exe
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\EntityCodeBuilder.pdb
-D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Easy4net.dll
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Entity.dll
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\SyntaxTextBox.dll
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\MySql.Data.dll
-D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Easy4net.pdb
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Entity.pdb
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.csprojResolveAssemblyReference.cache
 D:\workspace\CodeBuilder_Easy4net\WindowsDemo\obj\x86\Debug\WindowsDemo.Form1.resources
@@ -61,3 +59,5 @@ C:\Users\wangwei\Downloads\wangwei123-CodeBuilder_Easy4net-master\CodeBuilder_Ea
 F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\bin\Debug\EntityCodeBuilder.exe.config
 F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.exe
 F:\2531868871\FileRecv\CodeBuilder代码生成工具(支持MSSQL,MySQL)\WindowsDemo\obj\x86\Debug\EntityCodeBuilder.pdb
+D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Mast.dll
+D:\workspace\CodeBuilder_Easy4net\WindowsDemo\bin\Debug\Mast.pdb

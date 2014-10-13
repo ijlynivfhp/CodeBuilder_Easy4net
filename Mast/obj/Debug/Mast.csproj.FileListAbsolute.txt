@@ -1,0 +1,11 @@
+D:\workspace\TaobaoClient\Mast\bin\Debug\Mast.dll
+D:\workspace\TaobaoClient\Mast\bin\Debug\Mast.pdb
+D:\workspace\TaobaoClient\Mast\bin\Debug\mysql.data.dll
+D:\workspace\TaobaoClient\Mast\obj\Debug\Mast.dll
+D:\workspace\TaobaoClient\Mast\obj\Debug\Mast.pdb
+D:\workspace\Mast\Mast\bin\Debug\Mast.dll
+D:\workspace\Mast\Mast\bin\Debug\Mast.pdb
+D:\workspace\Mast\Mast\bin\Debug\mysql.data.dll
+D:\workspace\Mast\Mast\obj\Debug\Mast.dll
+D:\workspace\Mast\Mast\obj\Debug\Mast.pdb
+D:\workspace\Mast\Mast\obj\Debug\Mast.csprojResolveAssemblyReference.cache

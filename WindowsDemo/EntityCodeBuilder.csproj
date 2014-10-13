@@ -103,13 +103,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Easy4net\Easy4net\Easy4net.csproj">
-      <Project>{C54A1140-3F51-450A-A813-B556679934A8}</Project>
-      <Name>Easy4net</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{FB9611DD-770C-4132-B830-808ADA662222}</Project>
       <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mast\Mast.csproj">
+      <Project>{6c3efdda-8dca-4192-8bce-cec8950cda18}</Project>
+      <Name>Mast</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

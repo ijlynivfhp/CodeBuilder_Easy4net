@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Data;
-using Easy4net;
-using Easy4net.DBUtility;
 using EntityCodeBuilder.Entity;
+using Mast.DBUtility;
+using Mast.Session;
 
 namespace WindowsDemo
 {
     public class TableHelper
     {
-        private static DBHelper db = DBHelper.getInstance();
-
-
         /// <summary>  
         /// 获取局域网内的所有数据库服务器名称  
         /// </summary>  
@@ -152,7 +149,9 @@ namespace WindowsDemo
         public static List<TableName> GetMySQLTables()
         {
             String sql = "select TABLE_NAME as name from INFORMATION_SCHEMA.`TABLES` WHERE TABLE_SCHEMA = '" + AdoHelper.DbName+"'";
-            List<TableName> tablelist = db.FindBySql<TableName>(sql);
+
+            Session session = SessionFactory.GetSession();
+            List<TableName> tablelist = session.Find<TableName>(sql);
 
             return tablelist;
         }
@@ -197,8 +196,9 @@ namespace WindowsDemo
             sb.Append(" WHERE c.name = '").Append(TableName).Append("' ");
             sb.Append(" ORDER BY c.name, a.colorder");
 
-            //使用Easy4net框架查询数据
-            List<TableColumn> list = db.FindBySql<TableColumn>(sb.ToString());
+            //使用Mast框架查询数据
+            Session session = SessionFactory.GetSession();
+            List<TableColumn> list = session.Find<TableColumn>(sb.ToString());
             return list;
         }
 
@@ -221,8 +221,9 @@ namespace WindowsDemo
             sb.Append(" Where table_name = '").Append(TableName).Append("' ");
             sb.Append(" AND table_schema = '").Append(AdoHelper.DbName).Append("' ");
 
-            //使用Easy4net框架查询数据
-            List<TableColumn> list = db.FindBySql<TableColumn>(sb.ToString());
+            //使用Mast框架查询数据
+            Session session = SessionFactory.GetSession();
+            List<TableColumn> list = session.Find<TableColumn>(sb.ToString());
             return list;
         }
     }

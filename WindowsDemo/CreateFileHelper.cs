@@ -66,8 +66,7 @@ namespace WindowsDemo
             sb.Append("using System.Collections.Generic; ").Append("\n");
             sb.Append("using System.Linq;  ").Append("\n");
             sb.Append("using System.Text;  ").Append("\n");
-            sb.Append("using System.Text;  ").Append("\n");
-            sb.Append("namespace Easy4net.Entity  ").Append("\n");
+            sb.Append("namespace Entity  ").Append("\n");
             sb.Append("{  ").Append("\n");
 
             sb.Append("\t [Table(Name = \"").Append(tableName).Append("\")] ").Append("\n");
@@ -77,7 +76,7 @@ namespace WindowsDemo
             List<TableColumn> columns = TableHelper.GetColumnField(tableName);
             foreach (TableColumn column in columns)
             {
-                string type = TypeHelper.GetType(column.Type);
+                string type = TypeHelper.GetType(column.Type, column.IsNull == "√" ? true : false);
                 if (column.IsPrimaryKey == "√")
                 {
                     //[Id(Name = "UserID", Strategy = GenerationType.INDENTITY)]
@@ -85,6 +84,14 @@ namespace WindowsDemo
                     if (column.IsIdentity == "√")
                     {
                         strategy = "INDENTITY";
+                    }
+                    else if (type == "string")
+                    {
+                        strategy = "GUID";
+                    }
+                    else
+                    {
+                        strategy = "FILL";
                     }
 
                     sb.Append("\t\t").Append("[Id(Name = \"").Append(column.Name).Append("\", Strategy = GenerationType.").Append(strategy).Append(")]").Append("\n");
