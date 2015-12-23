@@ -9,3 +9,9 @@ D:\workspace\Mast\Mast\bin\Debug\mysql.data.dll
 D:\workspace\Mast\Mast\obj\Debug\Mast.dll
 D:\workspace\Mast\Mast\obj\Debug\Mast.pdb
 D:\workspace\Mast\Mast\obj\Debug\Mast.csprojResolveAssemblyReference.cache
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\bin\Debug\Mast.dll
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\bin\Debug\Mast.pdb
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\bin\Debug\mysql.data.dll
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\obj\Debug\Mast.csprojResolveAssemblyReference.cache
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\obj\Debug\Mast.dll
+D:\WorkSpace\CodeBuilder_Easy4net\Mast\obj\Debug\Mast.pdb

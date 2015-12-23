@@ -14,4 +14,3 @@ D:\workspace\CodeBuilder_Easy4net\Entity\bin\Debug\Entity.dll
 D:\workspace\CodeBuilder_Easy4net\Entity\bin\Debug\Entity.pdb
 D:\workspace\CodeBuilder_Easy4net\Entity\obj\Debug\Entity.dll
 D:\workspace\CodeBuilder_Easy4net\Entity\obj\Debug\Entity.pdb
-D:\workspace\CodeBuilder_Easy4net\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
